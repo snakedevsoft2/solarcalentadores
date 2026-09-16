@@ -1,12 +1,889 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-PR" data-lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    meta
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0D2B45">
+
+<title>Calentadores Solares en Puerto Rico | Solar Home Group</title>
+<meta name="description" content="Calentadores solares fabricados en Puerto Rico. Ahorra hasta 38% en tu factura de LUMA. Certificación ICC-SRCC y Energy Star, garantía de 6 años e instalación en toda la isla. Pide tu cotización.">
+<link rel="canonical" href="https://solarhomegrouppr.com/">
+<meta name="keywords" content="calentadores solares Puerto Rico, calentador solar, termo solar, placas solares agua caliente, instalación calentador solar PR, ahorro factura LUMA, calentador solar residencial, ICC-SRCC, Energy Star, MC Green Solutions">
+<meta name="geo.region" content="US-PR">
+<meta name="geo.placename" content="Puerto Rico">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_PR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:site_name" content="Solar Home Group">
+<meta property="og:title" content="Calentadores Solares en Puerto Rico | Solar Home Group">
+<meta property="og:description" content="Ahorra hasta 38% en tu factura de LUMA con un calentador solar fabricado en Puerto Rico. Garantía de 6 años y servicio a toda la isla.">
+<meta property="og:image" content="https://solarhomegrouppr.com/IMG/instalacion-techo-1024.webp">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="IMG/logo-240.webp" type="image/webp">
+<link rel="apple-touch-icon" href="IMG/logo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="IMG/instalacion-techo-1024.webp" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Tema e idioma aplicados antes del primer pintado para evitar parpadeo. -->
+<script>
+(function(){
+  try{
+    var t = localStorage.getItem('shg-theme');
+    if(!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.classList.add('js');
+    document.documentElement.setAttribute('data-theme', t);
+    if(localStorage.getItem('shg-lang') === 'en'){
+      document.documentElement.setAttribute('data-lang','en');
+      document.documentElement.setAttribute('lang','en');
+    }
+  }catch(e){}
+})();
+</script>
 </head>
+
 <body>
-    
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Saltar al contenido</a>
+
+<!-- ══════════════ 1 · HEADER FIJO ══════════════ -->
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+
+    <a class="brand" href="#top" aria-label="Solar Home Group">
+      <img src="IMG/logo-240.webp" srcset="IMG/logo-240.webp 240w, IMG/logo-480.webp 480w" sizes="156px"
+           width="240" height="133" alt="Solar Home Group" decoding="async">
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegación principal" data-i18n-aria-label="a11y.nav">
+      <a href="#modelos"         data-i18n="nav.modelos">Calentadores</a>
+      <a href="#ahorro"          data-i18n="nav.ahorro">Ahorro</a>
+      <a href="#certificaciones" data-i18n="nav.cert">Certificaciones</a>
+      <a href="#instalaciones"   data-i18n="nav.galeria">Instalaciones</a>
+      <a href="#cotiza"          data-i18n="nav.contacto">Contacto</a>
+    </nav>
+
+    <div class="hdr-tools">
+      <div class="switch" role="group" aria-label="Idioma" data-i18n-aria-label="a11y.lang">
+        <button type="button" class="switch-b is-on" data-lang-set="es" aria-pressed="true">ES</button>
+        <button type="button" class="switch-b" data-lang-set="en" aria-pressed="false">EN</button>
+      </div>
+
+      <button type="button" class="icon-b" id="themeBtn" aria-pressed="false"
+              aria-label="Cambiar de tema" data-i18n-aria-label="a11y.theme">
+        <svg class="ico-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17a5 5 0 110-10 5 5 0 010 10zm0-13.2a1 1 0 01-1-1V1.6a1 1 0 012 0v1.2a1 1 0 01-1 1zm0 18.6a1 1 0 01-1-1v-1.2a1 1 0 012 0v1.2a1 1 0 01-1 1zM3.8 12a1 1 0 01-1 1H1.6a1 1 0 010-2h1.2a1 1 0 011 1zm19.6 0a1 1 0 01-1 1h-1.2a1 1 0 010-2h1.2a1 1 0 011 1zM5.6 5.6a1 1 0 01-1.4 0l-.9-.8a1 1 0 011.4-1.5l.9.9a1 1 0 010 1.4zm14.1 14.1a1 1 0 01-1.4 0l-.9-.9a1 1 0 011.4-1.4l.9.9a1 1 0 010 1.4zM4.2 19.7a1 1 0 010-1.4l.9-.9a1 1 0 011.4 1.4l-.9.9a1 1 0 01-1.4 0zM17.4 6.5a1 1 0 010-1.4l.9-.9a1 1 0 011.4 1.4l-.9.9a1 1 0 01-1.4 0z"/></svg>
+        <svg class="ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 13.2A9 9 0 1110.8 3a7 7 0 1010.2 10.2z"/></svg>
+      </button>
+
+      <a class="hdr-tel" href="tel:+17872421249" data-track="tel" data-where="header">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1z"/></svg>
+        <span>787.242.1249</span>
+      </a>
+
+      <a class="btn btn-pri btn-sm hdr-cta" href="#cotiza" data-i18n="cta.primary">Cotiza</a>
+
+      <button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="nav"
+              aria-label="Abrir menú" data-i18n-aria-label="a11y.menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ══════════════ 2 · HERO ══════════════ -->
+<section class="hero" id="top">
+
+  <!-- El video queda muy atenuado detrás del velo azul: da movimiento sin
+       robarle legibilidad al titular. -->
+  <div class="hero-bg" aria-hidden="true">
+    <video class="hero-video" id="heroVideo" src="VIDEO/ambient-2.mp4"
+           autoplay muted loop playsinline preload="metadata"
+           poster="IMG/instalacion-techo-1024.webp"></video>
+    <span class="hero-scrim"></span>
+  </div>
+
+  <div class="wrap hero-in">
+    <h1 data-i18n="hero.h1">Energía inteligente para tu hogar</h1>
+
+    <p class="hero-sub" data-i18n="hero.sub">Calentadores solares fabricados en Puerto Rico.
+      Ahorra hasta 38% en tu factura de LUMA.</p>
+
+    <div class="hero-cta">
+      <a class="btn btn-pri btn-lg" href="#cotiza" data-i18n="cta.primary">Cotiza</a>
+      <a class="btn btn-line btn-lg" href="https://wa.me/17872421249?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20de%20calentador%20solar"
+         target="_blank" rel="noopener" data-track="whatsapp" data-where="hero">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm5.8 14.2c-.24.68-1.4 1.3-1.94 1.34-.5.05-.98.23-3.3-.7-2.77-1.1-4.54-3.94-4.68-4.12-.14-.19-1.12-1.5-1.12-2.85 0-1.36.7-2.02.96-2.3.24-.27.53-.34.7-.34h.5c.16 0 .38-.06.6.46.23.55.77 1.9.84 2.04.07.14.11.3.02.48-.1.19-.14.3-.28.47l-.42.48c-.14.14-.28.3-.12.58.16.28.71 1.17 1.52 1.9 1.04.93 1.92 1.22 2.2 1.36.27.14.43.12.59-.07.16-.19.68-.79.86-1.06.19-.28.37-.23.62-.14.25.1 1.6.75 1.87.89.28.14.46.2.53.32.07.11.07.65-.17 1.33z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+
+    <ul class="seals">
+      <li data-i18n="hero.seal1">8 años de experiencia</li>
+      <li data-i18n="hero.seal2">6 años de garantía</li>
+      <li data-i18n="hero.seal3">Certificado Energy Star</li>
+      <li data-i18n="hero.seal4">Servicio a toda la isla</li>
+    </ul>
+  </div>
+
+  <a class="hero-down" href="#certificaciones" aria-label="Bajar al contenido"
+     data-i18n-aria-label="a11y.down">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</section>
+
+<!-- ══════════════ 3 · FRANJA DE CERTIFICACIONES ══════════════ -->
+<section class="certs" id="certificaciones" aria-labelledby="certs-h">
+  <div class="wrap certs-in">
+    <h2 class="certs-h" id="certs-h" data-i18n="certs.line">Certificaciones federales que respaldan cada equipo.</h2>
+
+    <!-- Sellos tipográficos. Sustituir cada <span class="seal-mark"> por el
+         archivo del logo oficial cuando la empresa lo provea. -->
+    <ul class="certs-row">
+      <li class="cert"><span class="seal-mark">ICC<span>SRCC</span></span><span class="cert-t">OG-100</span></li>
+      <li class="cert"><span class="seal-mark">ICC<span>SRCC</span></span><span class="cert-t">OG-300</span></li>
+      <li class="cert"><span class="seal-mark seal-star">&#9733;</span><span class="cert-t">Energy Star Partner</span></li>
+      <li class="cert"><span class="seal-mark seal-pr">PR</span><span class="cert-t" data-i18n="certs.pr">Hecho en Puerto Rico</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════════ 4 · EL PROBLEMA ══════════════ -->
+<section class="sec" id="problema">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 data-i18n="prob.h2">Lo que te cuesta el calentador eléctrico en Puerto Rico</h2>
+    </header>
+
+    <div class="grid-3">
+      <article class="card pain">
+        <span class="pain-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>
+        <h3 data-i18n="prob.c1t">Tu calentador eléctrico consume 24/7</h3>
+        <p data-i18n="prob.c1p">Recalienta el tanque de noche y de madrugada, aunque nadie abra una llave.</p>
+      </article>
+
+      <article class="card pain">
+        <span class="pain-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18l5-5 3.5 3.5L20 9"/><path d="M15 9h5v5"/></svg></span>
+        <h3 data-i18n="prob.c2t">La factura de LUMA sigue subiendo</h3>
+        <p data-i18n="prob.c2p">Calentar agua es de los renglones más caros del consumo de una casa.</p>
+      </article>
+
+      <article class="card pain">
+        <span class="pain-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L5 13h6l-1 9 8-11h-6z"/></svg></span>
+        <h3 data-i18n="prob.c3t">Agua fría cada vez que se va la luz</h3>
+        <p data-i18n="prob.c3p">Sin corriente no hay agua caliente. El solar guarda el calor en el tanque.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 5 · CALCULADORA DE AHORRO ══════════════ -->
+<section class="sec sec-navy calc-sec" id="ahorro">
+  <div class="wrap">
+    <header class="sec-head sec-head-center">
+      <h2 data-i18n="calc.h2">Calcula tu ahorro en la factura de LUMA</h2>
+      <p class="sec-sub" data-i18n="calc.sub">Mueve la barra hasta tu factura mensual.</p>
+    </header>
+
+    <div class="calc">
+      <div class="calc-in">
+        <label class="calc-label" for="factura" data-i18n="calc.label">Tu factura mensual de luz</label>
+
+        <p class="calc-amount">
+          <span class="cur">$</span><output id="facturaOut" for="factura">180</output>
+          <span class="per" data-i18n="calc.month">/ mes</span>
+        </p>
+
+        <input type="range" id="factura" name="factura" min="60" max="600" step="10" value="180"
+               aria-describedby="calcNota">
+        <p class="range-legend"><span>$60</span><span>$600</span></p>
+
+        <p class="calc-manual">
+          <label for="facturaNum" data-i18n="calc.type">¿Prefieres escribirla?</label>
+          <input type="number" id="facturaNum" min="60" max="600" step="1" value="180" inputmode="numeric">
+        </p>
+      </div>
+
+      <div class="calc-out" aria-live="polite">
+        <p class="res res-hero">
+          <span class="res-k" data-i18n="calc.r1">Ahorro estimado al mes</span>
+          <span class="res-v" id="resMes">$68</span>
+        </p>
+        <div class="res-pair">
+          <p class="res">
+            <span class="res-k" data-i18n="calc.r2">Al año</span>
+            <span class="res-v" id="resAno">$821</span>
+          </p>
+          <p class="res">
+            <span class="res-k" data-i18n="calc.r3">En 20 años</span>
+            <span class="res-v" id="res20">$16,416</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="calc-foot">
+        <p class="fine" id="calcNota" data-i18n="calc.note">Estimado sobre un 38% de ahorro.
+          Es una proyección, no una cotización.</p>
+        <a class="btn btn-pri btn-lg" href="#cotiza" data-i18n="calc.cta">Quiero mi cotización exacta</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 6 · BENEFICIOS ══════════════ -->
+<section class="sec sec-sand" id="beneficios">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 data-i18n="ben.h2">Beneficios de un calentador solar en tu casa</h2>
+    </header>
+
+    <ul class="benefits">
+      <li><span class="chk" aria-hidden="true"></span><span data-i18n="ben.1">Agua caliente todo el año, incluso en días nublados</span></li>
+      <li><span class="chk" aria-hidden="true"></span><span data-i18n="ben.2">Ahorro de hasta 38% en electricidad</span></li>
+      <li><span class="chk" aria-hidden="true"></span><span data-i18n="ben.3">Vida útil de 15 a 20 años</span></li>
+      <li><span class="chk" aria-hidden="true"></span><span data-i18n="ben.4">Garantía de 6 años en tanque y colectores</span></li>
+      <li><span class="chk" aria-hidden="true"></span><span data-i18n="ben.5">Resistentes a huracanes</span></li>
+      <li><span class="chk" aria-hidden="true"></span><span data-i18n="ben.6">Mantenimiento mínimo</span></li>
+      <li><span class="chk" aria-hidden="true"></span><span data-i18n="ben.7">Sin impacto ambiental</span></li>
+      <li><span class="chk" aria-hidden="true"></span><span data-i18n="ben.8">Fabricado y servido localmente</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════════ 7 · FABRICADO EN PUERTO RICO ══════════════ -->
+<section class="sec" id="local">
+  <div class="wrap split">
+    <div class="split-copy">
+      <h2 data-i18n="local.h2">Fabricados aquí, para el clima de aquí</h2>
+      <p data-i18n="local.p1">El salitre y la humedad acaban con los equipos pensados para otro clima.
+        Estos no.</p>
+      <p data-i18n="local.p2">Dealer autorizado de MC Green Solutions, LLC, fabricante puertorriqueño
+        desde [año]. Ellos fabrican en la isla; nosotros instalamos y damos servicio.</p>
+      <p class="pr-badge"><span class="seal-mark seal-pr" aria-hidden="true">PR</span>
+        <span data-i18n="local.badge">Hecho en Puerto Rico</span></p>
+    </div>
+
+    <figure class="split-media">
+      <img src="IMG/termo-tanque-800.webp"
+           srcset="IMG/termo-tanque-480.webp 480w, IMG/termo-tanque-800.webp 800w, IMG/termo-tanque-1124.webp 1124w"
+           sizes="(max-width:900px) 92vw, 46vw" width="800" height="600" loading="lazy" decoding="async"
+           alt="Termo tanque de acero inoxidable Solar Home Group sobre su base, visto de frente."
+           data-i18n-alt="alt.tanque">
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════════ 8 · MODELOS ══════════════ -->
+<section class="sec sec-sand" id="modelos">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 data-i18n="mod.h2">Modelos de calentador solar por tamaño de familia</h2>
+      <p class="sec-sub" data-i18n="mod.sub">La evaluación del techo confirma cuál te toca.</p>
+    </header>
+
+    <!-- [ ] PENDIENTE: completar galonaje, cantidad de placas y precios de los
+         modelos de 3-4 y 5+ personas con datos de la empresa. No inventar. -->
+    <div class="table-scroll">
+      <table class="models">
+        <caption class="sr-only" data-i18n="mod.caption">Comparación de modelos de calentador solar por tamaño de hogar</caption>
+        <thead>
+          <tr>
+            <th scope="col"><span class="sr-only" data-i18n="mod.spec">Especificación</span></th>
+            <th scope="col"><span class="m-size" data-i18n="mod.s1">1 a 2 personas</span></th>
+            <th scope="col" class="is-pop">
+              <span class="pop-tag" data-i18n="mod.popular">Más popular</span>
+              <span class="m-size" data-i18n="mod.s2">3 a 4 personas</span>
+            </th>
+            <th scope="col"><span class="m-size" data-i18n="mod.s3">5 personas o más</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" data-i18n="mod.tank">Tanque</th>
+            <td>80 <span data-i18n="mod.gal">galones</span></td>
+            <td class="is-pop">[ ]</td>
+            <td>[ ]</td>
+          </tr>
+          <tr>
+            <th scope="row" data-i18n="mod.plates">Placas</th>
+            <td>1 <span data-i18n="mod.plate">placa</span></td>
+            <td class="is-pop">[ ]</td>
+            <td>[ ]</td>
+          </tr>
+          <tr>
+            <th scope="row" data-i18n="mod.material">Material</th>
+            <td data-i18n="mod.copper">Cobre</td>
+            <td class="is-pop" data-i18n="mod.copper">Cobre</td>
+            <td data-i18n="mod.copper">Cobre</td>
+          </tr>
+          <tr class="row-price">
+            <th scope="row" data-i18n="mod.price">Precio</th>
+            <td><span data-i18n="mod.from">desde</span> $[ ]</td>
+            <td class="is-pop"><span data-i18n="mod.from">desde</span> $[ ]</td>
+            <td><span data-i18n="mod.from">desde</span> $[ ]</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td><a class="btn btn-line btn-block" href="#cotiza" data-quote="1-2" data-i18n="mod.cta">Cotizar este modelo</a></td>
+            <td class="is-pop"><a class="btn btn-pri btn-block" href="#cotiza" data-quote="3-4" data-i18n="mod.cta">Cotizar este modelo</a></td>
+            <td><a class="btn btn-line btn-block" href="#cotiza" data-quote="5+" data-i18n="mod.cta">Cotizar este modelo</a></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <p class="fine center" data-i18n="mod.fine">El precio final depende del techo y de la plomería.</p>
+  </div>
+</section>
+
+<!-- ══════════════ 9 · CÓMO FUNCIONA ══════════════ -->
+<section class="sec" id="como">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 data-i18n="how.h2">Cómo funciona un calentador solar de agua</h2>
+    </header>
+
+    <div class="flow">
+      <div class="flow-item">
+        <svg class="flow-art" viewBox="0 0 120 90" role="img" aria-label="Colectores solares sobre el techo" data-i18n-aria-label="a11y.art1">
+          <path d="M8 74h104" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+          <path d="M22 66l14-40h48l14 40z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+          <path d="M36 26v40M52 26v40M68 26v40M84 26v40M29 46h62" stroke="currentColor" stroke-width="1.6" opacity=".5"/>
+          <circle cx="98" cy="16" r="7.5" fill="none" stroke="var(--sun)" stroke-width="2.5"/>
+          <path d="M98 3v3M111 16h3M85 16h-3M107 7l2-2M89 25l-2 2" stroke="var(--sun)" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <h3 data-i18n="how.1t">Colectores</h3>
+        <p data-i18n="how.1p">En el techo. Atrapan el calor del sol durante todo el día.</p>
+      </div>
+
+      <span class="flow-arrow" aria-hidden="true"></span>
+
+      <div class="flow-item">
+        <svg class="flow-art" viewBox="0 0 120 90" role="img" aria-label="Tanque térmico que almacena el agua caliente" data-i18n-aria-label="a11y.art2">
+          <rect x="26" y="22" width="68" height="40" rx="20" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M40 22v40M80 22v40" stroke="currentColor" stroke-width="1.6" opacity=".5"/>
+          <path d="M36 62v10M84 62v10M28 74h16M76 74h16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M60 33c4.5 4.5 6.5 7 6.5 9.8a6.5 6.5 0 11-13 0c0-2.8 2-5.3 6.5-9.8z" fill="none" stroke="var(--sun)" stroke-width="2.5" stroke-linejoin="round"/>
+        </svg>
+        <h3 data-i18n="how.2t">Tanque térmico</h3>
+        <p data-i18n="how.2p">Guarda el agua caliente y la mantiene lista, aunque se vaya la luz.</p>
+      </div>
+
+      <span class="flow-arrow" aria-hidden="true"></span>
+
+      <div class="flow-item">
+        <svg class="flow-art" viewBox="0 0 120 90" role="img" aria-label="Agua caliente saliendo por la ducha de la casa" data-i18n-aria-label="a11y.art3">
+          <path d="M30 18v10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          <path d="M30 23h28a14 14 0 0114 14v3" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M56 42h32" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+          <path d="M62 51v13M72 51v18M82 51v13" stroke="var(--sun)" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M14 78h92" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".3"/>
+        </svg>
+        <h3 data-i18n="how.3t">Agua caliente en toda la casa</h3>
+        <p data-i18n="how.3p">Llega a las duchas y a las llaves con la presión de siempre.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 10 · PROCESO ══════════════ -->
+<section class="sec sec-sand" id="proceso">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 data-i18n="proc.h2">De la llamada al agua caliente</h2>
+    </header>
+
+    <ol class="timeline">
+      <li class="tl-step">
+        <span class="tl-num">1</span>
+        <h3 data-i18n="proc.1t">Evaluación de techo sin costo</h3>
+        <p data-i18n="proc.1p">Vamos a tu casa, miramos el techo y la plomería. Sin costo.</p>
+      </li>
+      <li class="tl-step">
+        <span class="tl-num">2</span>
+        <h3 data-i18n="proc.2t">Cotización sin compromiso</h3>
+        <p data-i18n="proc.2p">Precio por escrito, con el modelo que le sirve a tu familia.</p>
+      </li>
+      <li class="tl-step">
+        <span class="tl-num">3</span>
+        <h3 data-i18n="proc.3t">Instalación</h3>
+        <p data-i18n="proc.3p">Equipo propio, anclaje al código y prueba del sistema antes de irnos.</p>
+      </li>
+      <li class="tl-step">
+        <span class="tl-num">4</span>
+        <h3 data-i18n="proc.4t">Garantía y servicio local</h3>
+        <p data-i18n="proc.4p">6 años de garantía y un técnico en la isla cuando lo necesites.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ══════════════ 11 · VIDEO ══════════════ -->
+<section class="sec sec-navy vid-sec" id="video">
+  <div class="wrap">
+    <header class="sec-head sec-head-center">
+      <h2 data-i18n="vid.h2">Míralo montado en el techo</h2>
+      <p class="sec-sub" data-i18n="vid.sub">Un calentador solar ya instalado y trabajando.</p>
+    </header>
+
+    <figure class="vid-frame is-playing">
+      <video class="vid-el" id="tourVideo" src="VIDEO/ambient-1.mp4"
+             autoplay muted loop playsinline preload="metadata"
+             poster="IMG/instalacion-techo-1024.webp"
+             aria-label="Video de un calentador solar instalado en un techo"
+             data-i18n-aria-label="a11y.video"></video>
+
+      <div class="vid-controls">
+        <button type="button" class="vid-b" id="vidPlay" aria-pressed="true"
+                aria-label="Pausar el video" data-i18n-aria-label="a11y.pause">
+          <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5h3v14H8zM13 5h3v14h-3z"/></svg>
+          <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
+        </button>
+
+        <button type="button" class="vid-b" id="vidSound" aria-pressed="false"
+                aria-label="Activar el sonido" data-i18n-aria-label="a11y.sound">
+          <svg class="i-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          <svg class="i-sound" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16.5 8.5a5 5 0 010 7M19 6a8.5 8.5 0 010 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════════ 12 · INSTALACIONES ══════════════ -->
+<section class="sec" id="instalaciones">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 data-i18n="gal.h2">Instalaciones de calentadores solares en la isla</h2>
+      <p class="sec-sub" data-i18n="gal.sub">Colectores y termo tanques en techos de la isla.</p>
+    </header>
+
+    <!-- [ ] PENDIENTE: añadir más fotos de instalaciones reales y sustituir
+         cada [Pueblo] por el municipio donde se hizo el trabajo.
+         Copia un <figure class="shot"> por foto nueva. -->
+    <div class="gallery">
+      <figure class="shot">
+        <button type="button" class="shot-b" data-full="IMG/instalacion-techo-1024.webp"
+                data-cap="Colectores planos y termo tanque en techo de cemento. [Pueblo]"
+                data-i18n-data-cap="gal.cap1">
+          <img src="IMG/instalacion-techo-480.webp" width="480" height="360" loading="lazy" decoding="async"
+               alt="Dos colectores planos y termo tanque Solar Home Group instalados en un techo de cemento."
+               data-i18n-alt="alt.gal1">
+        </button>
+        <figcaption data-i18n="gal.cap1">Colectores planos y termo tanque en techo de cemento. [Pueblo]</figcaption>
+      </figure>
+
+      <figure class="shot">
+        <button type="button" class="shot-b" data-full="IMG/colector-tubos-736.webp"
+                data-cap="Colector de tubos al vacío sobre techo inclinado. [Pueblo]"
+                data-i18n-data-cap="gal.cap2">
+          <img src="IMG/colector-tubos-480.webp" width="480" height="360" loading="lazy" decoding="async"
+               alt="Colector solar de tubos al vacío montado sobre un techo inclinado al atardecer."
+               data-i18n-alt="alt.gal2">
+        </button>
+        <figcaption data-i18n="gal.cap2">Colector de tubos al vacío sobre techo inclinado. [Pueblo]</figcaption>
+      </figure>
+
+      <figure class="shot">
+        <button type="button" class="shot-b" data-full="IMG/termo-tanque-1124.webp"
+                data-cap="Termo tanque de acero inoxidable, listo para montar. [Pueblo]"
+                data-i18n-data-cap="gal.cap3">
+          <img src="IMG/termo-tanque-480.webp" width="480" height="360" loading="lazy" decoding="async"
+               alt="Termo tanque de acero inoxidable Solar Home Group sobre su base metálica."
+               data-i18n-alt="alt.gal3">
+        </button>
+        <figcaption data-i18n="gal.cap3">Termo tanque de acero inoxidable, listo para montar. [Pueblo]</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!--
+  ══════════════ TESTIMONIOS ══════════════
+  Sección omitida a propósito: no hay reseñas verificadas de clientes.
+  Cuando existan (nombre, pueblo y ahorro real, con autorización), se añaden
+  aquí tres tarjetas. No publicar testimonios inventados.
+-->
+
+<!-- ══════════════ 12 · FINANCIAMIENTO ══════════════ -->
+<section class="finance" id="financiamiento">
+  <div class="wrap finance-in">
+    <div>
+      <h2 data-i18n="fin.h2">Págalo con lo que hoy se lleva la luz</h2>
+      <p data-i18n="fin.p">Pagos desde $[ ] al mes. Financiamiento e incentivos, si aplican.</p>
+      <!-- [ ] PENDIENTE: confirmar mensualidad mínima, plazos, institución
+           financiera e incentivos antes de publicar. -->
+    </div>
+    <a class="btn btn-pri btn-lg" href="#cotiza" data-i18n="fin.cta">Ver mi opción de pago</a>
+  </div>
+</section>
+
+<!-- ══════════════ 13 · CTA FINAL ══════════════ -->
+<section class="sec sec-navy cta-final" id="cotiza">
+  <div class="wrap cta-grid">
+
+    <div class="cta-copy">
+      <h2 data-i18n="cta.h2">Cotiza tu calentador solar en Puerto Rico</h2>
+      <p class="cta-sub" data-i18n="cta.sub">Tres pantallas cortas y te llamamos.</p>
+
+      <ul class="cta-contact">
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1z"/></svg>
+          <a href="tel:+17872421249" data-track="tel" data-where="cta">787.242.1249</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg>
+          <a href="mailto:[correo@solarhomegrouppr.com]">[correo@solarhomegrouppr.com]</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 22s8-6 8-12a8 8 0 10-16 0c0 6 8 12 8 12z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span data-i18n="cta.area">Servicio a toda la isla · Lun a sáb, 8:00 AM – 7:00 PM</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Formulario dinámico en 3 pasos. Sin JS se muestran todos los campos
+         a la vez y sigue funcionando como formulario normal. -->
+    <div class="cta-form-wrap">
+      <form class="lead" id="leadForm" novalidate>
+
+        <div class="lead-head">
+          <p class="lead-steps">
+            <span data-i18n="form.step">Paso</span>
+            <b id="stepNow">1</b> <span data-i18n="form.of">de</span> <b>3</b>
+          </p>
+          <div class="lead-bar" role="presentation"><span id="stepBar"></span></div>
+        </div>
+
+        <!-- Paso 1 · contexto de la casa -->
+        <fieldset class="lead-step is-on" data-step="1">
+          <legend data-i18n="form.q1">¿Cuántas personas viven en la casa?</legend>
+
+          <div class="chips" role="radiogroup" aria-labelledby="peopleLbl">
+            <span class="sr-only" id="peopleLbl" data-i18n="form.q1">¿Cuántas personas viven en la casa?</span>
+            <label class="chip"><input type="radio" name="personas" value="1-2"><span data-i18n="form.p1">1 a 2</span></label>
+            <label class="chip"><input type="radio" name="personas" value="3-4" checked><span data-i18n="form.p2">3 a 4</span></label>
+            <label class="chip"><input type="radio" name="personas" value="5+"><span data-i18n="form.p3">5 o más</span></label>
+          </div>
+
+          <div class="field">
+            <label for="f-factura" data-i18n="form.bill">Factura mensual aproximada</label>
+            <input type="range" id="f-factura" name="factura" min="60" max="600" step="10" value="180"
+                   aria-describedby="billOut">
+            <p class="bill-out" id="billOut"><span class="cur">$</span><b id="billVal">180</b>
+              <span class="per" data-i18n="calc.month">/ mes</span></p>
+          </div>
+
+          <p class="live-est" aria-live="polite">
+            <span data-i18n="form.est">Ahorro estimado</span>
+            <b id="estMes">$68</b>
+            <span data-i18n="form.estMonth">al mes</span>
+          </p>
+
+          <button type="button" class="btn btn-pri btn-block btn-next" data-next="2" data-i18n="form.next">Continuar</button>
+        </fieldset>
+
+        <!-- Paso 2 · contacto -->
+        <fieldset class="lead-step" data-step="2">
+          <legend data-i18n="form.q2">¿Con quién hablamos?</legend>
+
+          <div class="field">
+            <label for="f-nombre" data-i18n="form.name">Nombre completo</label>
+            <input type="text" id="f-nombre" name="nombre" autocomplete="name"
+                   placeholder="María Rivera" required aria-describedby="e-nombre">
+            <p class="err" id="e-nombre" hidden data-i18n="form.eName">Escribe tu nombre y apellido.</p>
+          </div>
+
+          <div class="field">
+            <label for="f-correo" data-i18n="form.email">Correo electrónico</label>
+            <input type="email" id="f-correo" name="correo" autocomplete="email" inputmode="email"
+                   placeholder="maria@correo.com" required aria-describedby="e-correo">
+            <p class="err" id="e-correo" hidden data-i18n="form.eEmail">Escribe un correo válido.</p>
+          </div>
+
+          <div class="field">
+            <label for="f-tel" data-i18n="form.phone">Teléfono</label>
+            <input type="tel" id="f-tel" name="telefono" inputmode="tel" autocomplete="tel"
+                   placeholder="787-000-0000" required aria-describedby="e-tel">
+            <p class="err" id="e-tel" hidden data-i18n="form.ePhone">Escribe un teléfono de 10 dígitos.</p>
+          </div>
+
+          <div class="lead-nav">
+            <button type="button" class="btn btn-line btn-back" data-back="1" data-i18n="form.back">Atrás</button>
+            <button type="button" class="btn btn-pri btn-next" data-next="3" data-i18n="form.next">Continuar</button>
+          </div>
+        </fieldset>
+
+        <!-- Paso 3 · pueblo y confirmación -->
+        <fieldset class="lead-step" data-step="3">
+          <legend data-i18n="form.q3">¿Dónde queda la casa?</legend>
+
+          <div class="field">
+            <label for="f-pueblo" data-i18n="form.town">Pueblo</label>
+            <input type="text" id="f-pueblo" name="pueblo" list="pueblos" autocomplete="address-level2"
+                   placeholder="Caguas" required aria-describedby="e-pueblo">
+            <datalist id="pueblos">
+              <option>Aguadilla</option><option>Arecibo</option><option>Bayamón</option>
+              <option>Caguas</option><option>Carolina</option><option>Cayey</option>
+              <option>Dorado</option><option>Fajardo</option><option>Guaynabo</option>
+              <option>Humacao</option><option>Mayagüez</option><option>Ponce</option>
+              <option>San Juan</option><option>Toa Alta</option><option>Vega Baja</option>
+            </datalist>
+            <p class="err" id="e-pueblo" hidden data-i18n="form.eTown">Dinos en qué pueblo vives.</p>
+          </div>
+
+          <dl class="lead-recap" id="recap">
+            <div><dt data-i18n="form.bill">Factura mensual aproximada</dt><dd id="rFactura">—</dd></div>
+            <div><dt data-i18n="form.model">Modelo sugerido</dt><dd id="rModelo">—</dd></div>
+            <div><dt data-i18n="form.est">Ahorro estimado</dt><dd id="rAhorro">—</dd></div>
+          </dl>
+
+          <div class="lead-nav">
+            <button type="button" class="btn btn-line btn-back" data-back="2" data-i18n="form.back">Atrás</button>
+            <button type="submit" class="btn btn-pri" data-i18n="form.submit">Solicitar mi cotización</button>
+          </div>
+        </fieldset>
+
+        <p class="alt-actions">
+          <span data-i18n="form.alt">¿Prefieres hablar ahora?</span>
+          <a href="https://wa.me/17872421249?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20de%20calentador%20solar"
+             target="_blank" rel="noopener" data-track="whatsapp" data-where="form">WhatsApp</a>
+          <span aria-hidden="true">·</span>
+          <a href="tel:+17872421249" data-track="tel" data-where="form" data-i18n="form.call">Llamar</a>
+        </p>
+      </form>
+
+      <div class="lead-ok" id="formOk" hidden role="status" tabindex="-1">
+        <span class="ok-mark" aria-hidden="true"></span>
+        <h3 data-i18n="form.okT">Recibimos tus datos</h3>
+        <p data-i18n="form.okP">Te llamamos dentro del horario de oficina, de lunes a sábado.</p>
+        <a class="btn btn-line" href="https://wa.me/17872421249" target="_blank" rel="noopener"
+           data-track="whatsapp" data-where="confirm" data-i18n="form.okCta">Adelantar por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 14 · RESPALDO ══════════════ -->
+<section class="backing" aria-label="Respaldo del fabricante" data-i18n-aria-label="a11y.backing">
+  <div class="wrap backing-in">
+    <!-- [ ] PENDIENTE: sustituir por el logo oficial de MC Green Solutions, LLC. -->
+    <span class="mcg-mark" aria-hidden="true">MC<span>GREEN</span></span>
+    <p data-i18n="back.p">Dealer autorizado de <b>MC Green Solutions, LLC</b>, fabricante puertorriqueño.</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════════ 15 · FOOTER ══════════════ -->
+<footer class="ftr">
+  <div class="wrap ftr-grid">
+
+    <div class="ftr-brand">
+      <img src="IMG/logo-240.webp" srcset="IMG/logo-240.webp 240w, IMG/logo-480.webp 480w" sizes="196px"
+           width="240" height="133" loading="lazy" decoding="async" alt="Solar Home Group">
+      <p data-i18n="ftr.mission">Calentadores solares para toda la isla, asegurándonos de que cada
+        familia pague menos por su agua caliente.</p>
+      <div class="ftr-social">
+        <a href="[URL Facebook]" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        <a href="[URL Instagram]" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.26.07 1.64.07 4.85s-.01 3.58-.07 4.85c-.15 3.22-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.15-3.23 1.66-4.77 4.92-4.92C8.42 2.2 8.8 2.2 12 2.2zm0 3.64A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4zm6.4-11.85a1.44 1.44 0 101.44 1.44 1.44 1.44 0 00-1.44-1.44z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="ftr-col">
+      <h2 data-i18n="ftr.contact">Contacto</h2>
+      <p>
+        <a href="tel:+17872421249" data-track="tel" data-where="footer">787.242.1249</a><br>
+        <a href="https://wa.me/17872421249" target="_blank" rel="noopener" data-track="whatsapp" data-where="footer">WhatsApp</a><br>
+        <a href="mailto:[correo@solarhomegrouppr.com]">[correo@solarhomegrouppr.com]</a>
+      </p>
+      <p data-i18n="ftr.hours">Lunes a sábado<br>8:00 AM – 7:00 PM</p>
+    </div>
+
+    <div class="ftr-col">
+      <h2 data-i18n="ftr.serviceT">Servicio</h2>
+      <p data-i18n="ftr.serviceP">Venta, instalación, garantía y mantenimiento en todo Puerto Rico.</p>
+    </div>
+
+    <div class="ftr-col">
+      <h2 data-i18n="ftr.townsT">Pueblos que servimos</h2>
+      <p class="ftr-towns" data-i18n="ftr.townsP">San Juan · Bayamón · Caguas · Carolina · Ponce ·
+        Mayagüez · Arecibo · Humacao y el resto de la isla.</p>
+    </div>
+
+    <div class="ftr-col">
+      <h2 data-i18n="ftr.legal">Legal</h2>
+      <p>
+        <a href="[URL Política de Privacidad]" data-i18n="ftr.privacy">Política de Privacidad</a><br>
+        <a href="[URL Términos y Condiciones]" data-i18n="ftr.terms">Términos y Condiciones</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="wrap ftr-bottom">
+    <p>&copy; <span id="year">2026</span> Solar Home Group. <span data-i18n="ftr.rights">Todos los derechos reservados.</span></p>
+    <p data-i18n="ftr.tag">Calentadores solares en Puerto Rico</p>
+    <p class="ftr-credit">
+      <span data-i18n="ftr.by">Sitio creado por</span>
+      <a href="[URL V&amp;S Digital Marketing]" rel="noopener"><b>V&amp;S Digital Marketing</b></a>
+    </p>
+  </div>
+</footer>
+
+<!-- ══════════════ WhatsApp flotante ══════════════ -->
+<div class="wa-dock">
+  <p class="wa-tip" id="waTip" data-i18n="wa.tip">¿Te cotizo tu calentador?</p>
+
+  <a class="wa-float" href="https://wa.me/17872421249?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20de%20calentador%20solar"
+     target="_blank" rel="noopener" data-track="whatsapp" data-where="float"
+     aria-label="Escríbenos por WhatsApp" data-i18n-aria-label="a11y.wa">
+
+    <!-- Técnico cargando una placa solar. Decorativo: el enlace ya tiene nombre. -->
+    <svg class="wa-guy" viewBox="0 0 110 122" aria-hidden="true" focusable="false">
+      <!-- placa solar -->
+      <g class="wa-panel">
+        <rect x="30" y="4" width="70" height="38" rx="4" fill="#0D2B45"/>
+        <rect x="34" y="8" width="62" height="30" rx="2" fill="#1B9AC4" opacity=".85"/>
+        <path d="M55 8v30M76 8v30M34 23h62" stroke="#0D2B45" stroke-width="2"/>
+        <path d="M38 12l10 6-10 6z" fill="#fff" opacity=".28"/>
+      </g>
+
+      <!-- brazo que sostiene la placa -->
+      <path d="M50 74L62 46" stroke="#1B9AC4" stroke-width="9" stroke-linecap="round"/>
+
+      <!-- cuerpo -->
+      <path d="M28 106V82a14 14 0 0128 0v24z" fill="#1B9AC4"/>
+      <path d="M42 90v16" stroke="#0D2B45" stroke-width="2" opacity=".35"/>
+
+      <!-- brazo que saluda -->
+      <g class="wa-arm">
+        <path d="M30 80L20 62" stroke="#1B9AC4" stroke-width="9" stroke-linecap="round"/>
+        <circle cx="19" cy="60" r="6" fill="#F2C9A0"/>
+      </g>
+
+      <!-- cabeza y casco -->
+      <circle cx="42" cy="66" r="13" fill="#F2C9A0"/>
+      <path d="M28 62a14 14 0 0128 0z" fill="#F28C28"/>
+      <path d="M25 62h34" stroke="#F28C28" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="38" cy="66" r="1.8" fill="#0D2B45"/>
+      <circle cx="47" cy="66" r="1.8" fill="#0D2B45"/>
+      <path d="M39 71.5c2.2 1.8 4.8 1.8 7 0" stroke="#0D2B45" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    </svg>
+
+    <span class="wa-btn">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm5.8 14.2c-.24.68-1.4 1.3-1.94 1.34-.5.05-.98.23-3.3-.7-2.77-1.1-4.54-3.94-4.68-4.12-.14-.19-1.12-1.5-1.12-2.85 0-1.36.7-2.02.96-2.3.24-.27.53-.34.7-.34h.5c.16 0 .38-.06.6.46.23.55.77 1.9.84 2.04.07.14.11.3.02.48-.1.19-.14.3-.28.47l-.42.48c-.14.14-.28.3-.12.58.16.28.71 1.17 1.52 1.9 1.04.93 1.92 1.22 2.2 1.36.27.14.43.12.59-.07.16-.19.68-.79.86-1.06.19-.28.37-.23.62-.14.25.1 1.6.75 1.87.89.28.14.46.2.53.32.07.11.07.65-.17 1.33z"/></svg>
+    </span>
+  </a>
+</div>
+
+<!-- ══════════════ Barra inferior (móvil) ══════════════ -->
+<nav class="mbar" aria-label="Acciones rápidas" data-i18n-aria-label="a11y.quick">
+  <a href="https://wa.me/17872421249?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20de%20calentador%20solar"
+     target="_blank" rel="noopener" data-track="whatsapp" data-where="mobilebar">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm5.8 14.2c-.24.68-1.4 1.3-1.94 1.34-.5.05-.98.23-3.3-.7-2.77-1.1-4.54-3.94-4.68-4.12-.14-.19-1.12-1.5-1.12-2.85 0-1.36.7-2.02.96-2.3.24-.27.53-.34.7-.34h.5c.16 0 .38-.06.6.46.23.55.77 1.9.84 2.04.07.14.11.3.02.48-.1.19-.14.3-.28.47l-.42.48c-.14.14-.28.3-.12.58.16.28.71 1.17 1.52 1.9 1.04.93 1.92 1.22 2.2 1.36.27.14.43.12.59-.07.16-.19.68-.79.86-1.06.19-.28.37-.23.62-.14.25.1 1.6.75 1.87.89.28.14.46.2.53.32.07.11.07.65-.17 1.33z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+  <a class="mbar-cta" href="#cotiza" data-i18n="cta.primary">Cotiza</a>
+  <a href="tel:+17872421249" data-track="tel" data-where="mobilebar">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.6a1 1 0 01-.25 1z"/></svg>
+    <span data-i18n="form.call">Llamar</span>
+  </a>
+</nav>
+
+<!-- ══════════════ Lightbox de la galería ══════════════ -->
+<div class="lb" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Foto ampliada" data-i18n-aria-label="a11y.lb">
+  <button type="button" class="lb-close" id="lbClose" aria-label="Cerrar" data-i18n-aria-label="a11y.close">&times;</button>
+  <button type="button" class="lb-nav lb-prev" id="lbPrev" aria-label="Foto anterior" data-i18n-aria-label="a11y.prev">&#8249;</button>
+  <figure class="lb-fig">
+    <img id="lbImg" src="" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button type="button" class="lb-nav lb-next" id="lbNext" aria-label="Foto siguiente" data-i18n-aria-label="a11y.next">&#8250;</button>
+</div>
+
+<!-- ══════════════ Pop-up de captación ══════════════ -->
+<div class="pop" id="pop" hidden role="dialog" aria-modal="true" aria-labelledby="popT">
+  <div class="pop-card">
+    <button type="button" class="pop-x" id="popX" aria-label="Cerrar" data-i18n-aria-label="a11y.close">&times;</button>
+
+    <p class="pop-eyebrow" data-i18n="pop.kicker">Evaluación sin costo en Puerto Rico</p>
+    <p class="pop-figure"><span class="pop-num" id="popNum">38</span><span class="pop-pct">%</span></p>
+    <h2 class="pop-h" id="popT" data-i18n="pop.h">Eso es lo que puedes dejar de pagarle a LUMA</h2>
+    <p class="pop-p" data-i18n="pop.p">Déjanos tu teléfono y te llamamos con un estimado. Sin compromiso.</p>
+
+    <form class="pop-form" id="popForm" novalidate>
+      <label class="sr-only" for="pop-tel" data-i18n="form.phone">Teléfono</label>
+      <input type="tel" id="pop-tel" name="telefono" inputmode="tel" autocomplete="tel"
+             placeholder="787-000-0000" required aria-describedby="pop-err">
+      <button type="submit" class="btn btn-pri" data-i18n="pop.cta">Llámenme</button>
+    </form>
+    <p class="err" id="pop-err" hidden data-i18n="form.ePhone">Escribe un teléfono de 10 dígitos.</p>
+
+    <p class="pop-ok" id="popOk" hidden role="status" data-i18n="pop.ok">Listo. Te llamamos en horario de oficina.</p>
+
+    <button type="button" class="pop-no" id="popNo" data-i18n="pop.no">Ahora no, gracias</button>
+  </div>
+</div>
+
+<script src="i18n.js" defer></script>
+<script src="script.js" defer></script>
+
+<!-- ══════════════ Schema markup ══════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://solarhomegrouppr.com/#business",
+      "name": "Solar Home Group",
+      "description": "Venta, instalacion y servicio de calentadores solares residenciales en Puerto Rico. Dealer autorizado de MC Green Solutions, LLC.",
+      "slogan": "Energia que transforma tu hogar",
+      "url": "https://solarhomegrouppr.com/",
+      "image": "https://solarhomegrouppr.com/IMG/instalacion-techo-1024.webp",
+      "logo": "https://solarhomegrouppr.com/IMG/logo-480.webp",
+      "telephone": "+1-787-242-1249",
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[Direccion fisica]",
+        "addressLocality": "[Pueblo]",
+        "addressRegion": "PR",
+        "postalCode": "[00000]",
+        "addressCountry": "PR"
+      },
+      "areaServed": { "@type": "AdministrativeArea", "name": "Puerto Rico" },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "08:00",
+        "closes": "19:00"
+      }],
+      "makesOffer": { "@id": "https://solarhomegrouppr.com/#producto" }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://solarhomegrouppr.com/#producto",
+      "name": "Calentador solar residencial",
+      "description": "Calentador solar con tanque y colectores de cobre, certificado ICC-SRCC OG-100 y OG-300, con garantia de 6 anos en tanque y colectores. Vida util estimada de 15 a 20 anos.",
+      "image": "https://solarhomegrouppr.com/IMG/termo-tanque-1124.webp",
+      "category": "Calentadores solares de agua",
+      "material": "Cobre",
+      "brand": { "@type": "Brand", "name": "MC Green Solutions, LLC" },
+      "countryOfOrigin": { "@type": "Country", "name": "Puerto Rico" },
+      "areaServed": { "@type": "AdministrativeArea", "name": "Puerto Rico" },
+      "seller": { "@id": "https://solarhomegrouppr.com/#business" }
+    }
+  ]
+}
+</script>
+
 </body>
 </html>
