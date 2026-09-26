@@ -44,6 +44,7 @@ window.SHG_I18N = {
 
   /* Navegación */
   'nav.modelos':  'Heaters',
+  'nav.agua':     'Water tanks',
   'nav.ahorro':   'Savings',
   'nav.cert':     'Certifications',
   'nav.galeria':  'Installations',
@@ -102,7 +103,7 @@ window.SHG_I18N = {
   /* Fabricado en PR */
   'local.h2':    'Built here, for the weather here',
   'local.p1':    'Salt air and humidity destroy equipment designed for another climate. Not these.',
-  'local.p2':    'Authorized dealer for MC Green Solutions, LLC, a Puerto Rican manufacturer since [year]. They build on the island; we install and service.',
+  'local.p2':    'Authorized dealer for Universal Solar Products, a Puerto Rican manufacturer since [year]. They build on the island; we install and service.',
   'local.badge': 'Made in Puerto Rico',
 
   /* Modelos */
@@ -124,6 +125,17 @@ window.SHG_I18N = {
   'mod.from':    'from',
   'mod.cta':     'Quote this model',
   'mod.fine':    'The final price depends on the roof and the plumbing.',
+
+  /* Cisternas y purificadores */
+  'agua.h2':  'Stainless steel water tanks and water purifiers',
+  'agua.sub': 'We also sell and install Universal Solar equipment for your home’s water.',
+  'agua.c1t': 'Stainless steel water tank',
+  'agua.c1p': 'Surgical-grade stainless steel: it won’t rot and keeps slime and mold out. Comes with an American-made pump and pressure tank, installed by technicians.',
+  'agua.c2t': 'Reverse osmosis purifier',
+  'agua.c2p': 'RainSoft Ultrefiner II. Filtration, post-filtration and reverse osmosis for drinking water straight from the tap.',
+  'agua.c3t': 'Water softener',
+  'agua.c3p': 'RainSoft EC5. It analyzes your water use and runs its own regeneration and wash cycles.',
+  'agua.cta': 'Ask for details',
 
   /* Cómo funciona */
   'how.h2': 'How a solar water heater works',
@@ -203,7 +215,7 @@ window.SHG_I18N = {
   'pop.no':     'Not right now, thanks',
 
   /* Respaldo */
-  'back.p': 'Authorized dealer for <b>MC Green Solutions, LLC</b>, a Puerto Rican manufacturer.',
+  'back.p': 'Authorized dealer for <b>Universal Solar Products</b>, a Puerto Rican manufacturer.',
 
   /* Footer */
   'ftr.mission':  'Solar water heaters for the whole island, making sure every family pays less for their hot water.',
@@ -221,7 +233,10 @@ window.SHG_I18N = {
   'ftr.tag':      'Solar water heaters in Puerto Rico',
 
   /* Texto alternativo de las fotos */
-  'alt.tanque': 'Solar Home Group stainless steel thermal tank on its stand, seen from the front.',
+  'alt.tanque': 'Universal Solar water heater: stainless steel thermal tank over two flat collectors.',
+  'alt.cisterna':   'Universal Solar stainless steel water tank with a blue pressure tank and pump.',
+  'alt.osmosis':    'RainSoft Ultrefiner II reverse osmosis system with a white tank and three filters.',
+  'alt.suavizador': 'RainSoft EC5 water softener next to its brine tank.',
   'alt.gal1':   'Two flat collectors and a Solar Home Group thermal tank installed on a concrete roof.',
   'alt.gal2':   'Evacuated tube solar collector mounted on a pitched roof at sunset.',
   'alt.gal3':   'Solar Home Group stainless steel thermal tank on its metal stand.',

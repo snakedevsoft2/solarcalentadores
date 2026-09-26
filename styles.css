@@ -1058,3 +1058,17 @@ html:not(.js) .lead-recap{ display:none; }
   .hdr,.mbar,.wa-float,.pop,.lb,.hero-video{ display:none !important; }
   body{ padding:0; }
 }
+
+/* ── Cisternas y purificadores ──────────────────────────────────────────── */
+.prod{ display:flex; flex-direction:column; padding:0 0 24px; overflow:hidden; }
+.prod-img{
+  width:100%; aspect-ratio:4/3; object-fit:contain;
+  background:#fff; border-bottom:1px solid var(--line); margin-bottom:20px;
+}
+.prod h3, .prod p{ padding-inline:24px; }
+.prod p{ flex:1; margin-bottom:20px; }
+.prod .btn{ margin-inline:24px; width:auto; }
+
+/* Logo del fabricante en la franja de respaldo */
+.us-logo{ width:96px; height:auto; }
+:root[data-theme="dark"] .us-logo{ background:#fff; border-radius:var(--radius-sm); padding:6px; }
